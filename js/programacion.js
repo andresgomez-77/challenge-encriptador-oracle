@@ -14,7 +14,7 @@ function encriptador(){
         var hola4= arr.includes("u");
         console.log("mostrar: "+hola);
         if(hola==true || hola1==true ||hola2==true ||hola3==true || hola4==true ){
-            var remplazado=palabra.replace(/e/igm,alternador[1].replace(/i/igm,alternador[2]))
+            var remplazado=palabra.replace(/e/igm,alternador[1]).replace(/i/igm,alternador[2])
             .replace(/a/igm,alternador[0]).replace(/o/igm,alternador[3]).replace(/u/igm,alternador[4]);
             console.log("mostrar: "+remplazado);
             break;
