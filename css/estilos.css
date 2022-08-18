@@ -169,6 +169,7 @@ button:active{
 	transform: translateY(4px);
     transition: all 0.1s ease 0s;
 }
+
 .piePag{
     background: linear-gradient(rgba(0, 0, 65, 0.1),rgba(51, 1, 51, 0.3));
     width: auto;
